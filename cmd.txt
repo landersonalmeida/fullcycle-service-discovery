@@ -1,0 +1,1 @@
+consul agent -server -bootstrap-expect=3 -node=consulserver02 -bind=172.29.0.2 -data-dir=/var/lib/consul -config-dir=/etc/consul.d
